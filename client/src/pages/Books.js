@@ -8,8 +8,8 @@ import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
 
 function Books() {
-  const [books, setBooks] = useState([])
-  const [formObject, setFormObject] = useState({})
+  const [books, setBooks] = useState([]);
+  const [formObject, setFormObject] = useState({});
 
   useEffect(() => {
     loadBooks()
